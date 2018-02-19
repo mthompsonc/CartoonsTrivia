@@ -6,3 +6,12 @@
   padding: 0.5em;
   margin-top: 0.5em;
 }
+
+.t-or-f, .multiple {
+  background-color: #40BAE7;
+  color: #FFFFFF;
+  padding: 0.5em;
+  margin: 1em;
+  border: none;
+  border-radius: 0.5em;
+}

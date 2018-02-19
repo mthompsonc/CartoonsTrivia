@@ -1,55 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-  <meta charset="UTF-8">
-  <title>Cartoon's Trivia</title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-  <link rel="stylesheet" href="assets/css/style.css">
-</head>
-<body>
-  <div class="container">
-    <div class="row">
-      <div class="col-xs-12 col-sm-12 hidden-md hidden-lg">
-        <!-- aquí va el logo de trivia -->
-        <img src="" alt="">
-      </div>
-      <div class="hidden-xs hidden-sm col-md-offset-4 col-lg-offset-4 col-md-4 col-lg-4 ">
-        <!-- aquí va el logo de trivia -->
-        <img src="" alt="">
-      </div>
-    </div>
+  <head>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta charset="UTF-8">
+    <title>Cartoon's Trivia</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-offset-3 col-lg-offset-3 col-md-6 col-lg-6 ">
+          <!-- aquí va el logo de trivia -->
+          <img class='img-responsive' src="assets/img/trivia-logo.png" alt="">
+        </div>
+          <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-offset-2 col-lg-offset-2 col-md-8 col-lg-8 whatKind">
+              <h1>¿What kind of questions would you prefer?</h1>
+              <div class="row">
+              <button class="multiple col-xs-12 col-sm-12 col-md-8 col-lg-10">Multiple</button>
+              </div>
+              <div class="row">
+              <button class="t-or-f col-xs-12 col-sm-12 col-md-8 col-lg-10">True or False</button>
+              </div>
+            </div>
+          </div>
+        </div>
         <div class="row">
-      <div class="col-xs-12 col-sm-12 hidden-md hidden-lg">
-        <!-- Aquí va la pregunta -->
-        <div class="question"></div>
-        <img src="" alt="">
+          <div class="col-xs-12 col-sm-12 col-md-offset-3 col-lg-offset-3 col-md-6 col-lg-6">
+            <!-- Aquí va la pregunta -->
+            <div class="question"></div>
+            <img src="" alt="">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-offset-3 col-lg-offset-3 col-md-6 col-lg-6 ">
+            <!-- Aquí van las alternativas -->
+            <div class="choose"></div>
+            <img src="" alt="">
+          </div>
+        </div>
       </div>
-      <div class="hidden-xs hidden-sm col-md-offset-3 col-lg-offset-3 col-md-6 col-lg-6 ">
-        <!-- Aquí va la pregunta -->
-        <div class="question"></div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-xs-12 col-sm-12 hidden-md hidden-lg">
-        <!-- Aquí van las alternativas -->
-        <div class="choose"></div>
-        <img src="" alt="">
-      </div>
-      <div class="hidden-xs hidden-sm col-md-offset-3 col-lg-offset-3 col-md-6 col-lg-6 ">
-        <!-- Aquí van las alternativas -->
-        <div class="choose"></div>
-      </div>
-    </div>
-  </div>
-
-  <script
-  src="http://code.jquery.com/jquery-3.3.1.min.js"
-  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-  crossorigin="anonymous"></script>
-  <!-- Latest compiled and minified JavaScript -->
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-  <script src="assets/js/app.js"></script>
-</body>
-</html>
+      <script
+      src="http://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"></script>
+      <!-- Latest compiled and minified JavaScript -->
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+      <script src="assets/js/app.js"></script>
+    </body>
+  </html>
